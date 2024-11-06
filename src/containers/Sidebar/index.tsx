@@ -4,7 +4,11 @@ import Avatar from '../Avatar'
 
 import { Descricao, BotaoTema, SidebarContainer } from './style'
 
-const Sidebar = () => (
+type Props = {
+  trocarTema: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -15,7 +19,7 @@ const Sidebar = () => (
       <Descricao tipo="principal" fontSize={12}>
         Engenheiro Front End
       </Descricao>
-      <BotaoTema>Trocar tema</BotaoTema>
+      <BotaoTema onClick={props.trocarTema}>Trocar tema</BotaoTema>
     </SidebarContainer>
   </aside>
 )
