@@ -6,10 +6,11 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre</Titulo>
     <Paragrafo tipo="principal">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-      repellendus et explicabo aperiam ut nostrum iure delectus. Eaque
-      temporibus, repellat exercitationem dolorem suscipit tenetur, iure aperiam
-      alias ipsam non nam.
+      Olá, meu nome é Estevão, tenho 27 anos, Nasci e creci na cidade de Sâo
+      paulo e permaneço residente nela, Atualmente profissional em formação no
+      curso Engenharia de Front-End, e buscando oportunidades para crescer e me
+      aprimorar na área, para agregar os meus conhecimentos e ter um bom
+      desempenho no mercado de trabalho.
     </Paragrafo>
     <GithubSecao>
       <img
